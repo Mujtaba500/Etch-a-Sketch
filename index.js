@@ -18,3 +18,12 @@ function makeColumns(colNum) {
 }
 }
 makeColumns(16)
+let columns = Array.from(document.querySelectorAll('.gridCol'))
+console.log(columns)
+columns.forEach(div => {
+    div.addEventListener('mouseover', colorChange);
+    function colorChange() {
+    div.setAttribute('style', 'background-color:black;');
+}
+}
+)
