@@ -2,28 +2,36 @@
 body{
     margin: 0;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    background-color: grey;
+
     
+}
+
+button {
+    padding: 5px 10px;
+    margin: 10px;
 }
 
 #container {
     display: flex;
-    
-    
-    
+    align-items: center;
+    height: 500px;   
+    width: 500px;
+    margin: 30px auto auto auto;
+      
 }
 
 .gridRow {
-    padding: 0;
     border: none;
-    
+    height: 100%;
+    width: 100%; 
     
 }
 .gridCol {
     border: 1px solid black;
-    padding: 10px;
+    padding: 12px;
+    background-color: white;
 }
 
 /* .gridCol:hover {
